@@ -17,8 +17,11 @@ new class extends Component {
     <select wire:model='status'>
         <option value="">--pilih status</option>
         <option value="BARU">BARU</option>
+        <option value="PENDING">PENDING</option>
+        <option value="PUTUS">PUTUS</option>
         <option value="SELESAI">SELESAI</option>
     </select>
+    <button>SIMPAAAAAAAN DATAAAAAA</button>
 
     <hr color="blue" />
     <h3>Berikut Adalah Daftar Kegiatan Anda</h3>
